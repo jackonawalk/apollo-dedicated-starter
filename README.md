@@ -1,0 +1,1 @@
+This repo provides a basic implementation of the GraphOS Cloud Terraform module. This repo is useful if you're not already using Terraform and want to see a working example of Terraform with GraphOS Cloud.
