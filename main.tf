@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "TODO_AWS_REGION"
 }
 
 module "graphos_aws" {
@@ -16,8 +16,8 @@ module "graphos_aws" {
 
   alb_subgraphs = {
     "summit-demo" = {
-      alb_arn = "arn:aws:elasticloadbalancing:us-east-1:486668502405:loadbalancer/app/private-subgraphs/5146050744de945a"
-      vpc_id  = "vpc-098c06f469c9fc0ac"
+      alb_arn = "TODO_ALB_ARN"
+      vpc_id  = "TODO_VPC_ID"
     }
   }
 }
